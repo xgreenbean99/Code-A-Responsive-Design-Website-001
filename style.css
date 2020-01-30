@@ -194,7 +194,7 @@ footer a{
 @media screen and (max-width:400px) {
 /* if screen is 400px or less the li takes up 92% of the screen*/
     #featured li {
-        width: 92  %;
+        width: 92%;
     }
 
 }
