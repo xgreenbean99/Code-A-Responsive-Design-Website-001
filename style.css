@@ -220,9 +220,28 @@ footer a{
 }
 
 @media screen and (max-width:480px) {
-/* if screen is 400px or less the li takes up 92% of the screen*/
+/* if screen is 480px or less apply this CSS*/
     #featured li {
         width: 92%;
+        margin: 20px 5%;
+    }
+
+      footer ul {
+          width: 98%;
+          text-align: center;
+      }
+
+    #home-menu li {
+        float:none;
+        width:96%;
+        margin: 30px 2% !important;
+
+    }
+
+    #main-banner img{
+        position: relative;
+        width: 180%;
+        left: -40%;
     }
 
 }
